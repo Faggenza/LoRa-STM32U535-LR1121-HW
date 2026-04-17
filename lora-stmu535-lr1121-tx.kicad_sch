@@ -1,0 +1,194 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "963238c7-8564-44c5-a128-5d82375c10f7")
+	(paper "A4")
+	(title_block
+		(title "Tx Class A LoRa")
+		(date "2026-04-13")
+		(rev "1")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 182.88 113.03)
+		(end 182.88 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 15409cdf-6d19-4196-b263-f203076c8676)
+	)
+	(rectangle
+		(start 133.35 60.96)
+		(end 133.35 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ed9eff5-d616-440e-8994-974d8fdf7500)
+	)
+	(rectangle
+		(start 144.78 86.36)
+		(end 144.78 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1cb57da-2159-470b-8c75-2c1f49d44c60)
+	)
+	(text "TODO:\n- footprints for big R L C"
+		(exclude_from_sim no)
+		(at 125.73 51.435 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6b7cc98c-4d02-4e5e-951d-662cbc611655")
+	)
+	(sheet
+		(at 52.07 90.805)
+		(size 64.77 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e252930-8cb6-4106-8539-d7be2478662a")
+		(property "Sheetname" "RF"
+			(at 52.07 90.0934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 52.07 140.9196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 39.37)
+		(size 64.77 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f3e8fd6-042d-4fa2-915e-0bb9e5dd61a2")
+		(property "Sheetname" "MCU"
+			(at 52.07 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 52.07 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 90.805)
+		(size 74.295 48.895)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec0d794e-4e86-49b4-99a7-5aeb461302ab")
+		(property "Sheetname" "BQ25570"
+			(at 123.19 90.0934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bq25570.kicad_sch"
+			(at 123.19 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
