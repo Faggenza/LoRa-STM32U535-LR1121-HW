@@ -2390,12 +2390,6 @@
 		(uuid "8b6168f3-a72c-437b-b49f-928a8be3039e")
 	)
 	(junction
-		(at 186.69 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95fda820-ced7-4691-a23c-b45c59162deb")
-	)
-	(junction
 		(at 83.185 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2981,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.895 72.39) (xy 186.69 72.39)
+			(xy 175.895 72.39) (xy 198.755 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3248,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "b54727c9-2133-4a2c-9268-f188b45164ee")
-	)
-	(wire
-		(pts
-			(xy 186.69 72.39) (xy 198.755 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b580df65-7cf3-425f-b48d-4c05ab4bbb83")
 	)
 	(wire
 		(pts
@@ -4411,72 +4395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 186.69 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22b36c52-b45e-47d3-8772-84d66cc13d71")
-		(property "Reference" "#FLG03"
-			(at 186.69 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 186.69 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.69 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1323f3-3ca1-433f-b51e-be83f0af7d63")
-		)
-		(instances
-			(project "lora-stmu535-lr1121-tx"
-				(path "/963238c7-8564-44c5-a128-5d82375c10f7/ec0d794e-4e86-49b4-99a7-5aeb461302ab"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:BQ25570")
 		(at 145.415 86.36 0)
 		(unit 1)
@@ -4698,7 +4616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 107.95 80.645 0)
 			(effects
 				(font
@@ -4903,7 +4821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 181.61 78.74 0)
 			(effects
 				(font
@@ -5993,7 +5911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 132.715 51.435 0)
 			(effects
 				(font

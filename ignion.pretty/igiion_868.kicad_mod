@@ -58,6 +58,30 @@
 	(attr smd)
 	(fp_poly
 		(pts
+			(xy 2.75 -3) (xy 2.75 -4) (xy 1.75 -4) (xy 1.75 -3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "b3b5009f-8686-40d1-9a94-00821676c177")
+	)
+	(fp_poly
+		(pts
+			(xy 18.5 -17.5) (xy 16.5 -17.5) (xy 16.5 -14.5) (xy 18.5 -14.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "5d8b4160-57c7-46f2-b7b4-c5f6fb6a3f2f")
+	)
+	(fp_poly
+		(pts
 			(xy 1.5 -5.25) (xy 0.5 -5.25) (xy 0.5 -1.75) (xy 2 -1.75) (xy 2 -0.9) (xy 3 -0.9) (xy 3 -2.75) (xy 1.5 -2.75)
 		)
 		(stroke
