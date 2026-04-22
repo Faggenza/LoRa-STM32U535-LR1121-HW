@@ -2743,6 +2743,12 @@
 		(uuid "654808b7-efc1-4105-ad40-9b25a802f689")
 	)
 	(junction
+		(at 248.285 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65582911-101e-46bb-87e7-7f75397527fd")
+	)
+	(junction
 		(at 160.02 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3402,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.285 153.67) (xy 250.825 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f953b6-63b7-454a-a47f-816a00e005fd")
+	)
+	(wire
+		(pts
 			(xy 160.02 71.12) (xy 160.02 72.39)
 		)
 		(stroke
@@ -3962,6 +3978,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.285 158.75) (xy 248.285 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5899d3b-8a57-4b1d-a69b-c96b306bd6a2")
+	)
+	(wire
+		(pts
+			(xy 255.905 153.67) (xy 260.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b94a21-4136-476c-8a61-8b9ef1e36de1")
+	)
+	(wire
+		(pts
 			(xy 46.99 72.39) (xy 57.15 72.39)
 		)
 		(stroke
@@ -3972,7 +4008,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 153.67) (xy 246.38 153.67)
+			(xy 234.95 153.67) (xy 241.3 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4162,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 153.67) (xy 260.35 153.67)
+			(xy 246.38 153.67) (xy 248.285 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5446,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 248.92 153.67 90)
+		(at 243.84 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5419,23 +5455,23 @@
 		(fields_autoplaced yes)
 		(uuid "41374c92-91e6-422d-8935-6d867c338c70")
 		(property "Reference" "L9"
-			(at 248.92 147.955 90)
+			(at 243.84 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "39nH"
-			(at 248.92 150.495 90)
+		(property "Value" "1.3nH"
+			(at 243.84 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
-			(at 248.92 153.67 0)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 243.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 153.67 0)
+			(at 243.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,7 +5489,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 248.92 153.67 0)
+			(at 243.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5656,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47c70757-a88b-4698-8f02-bc18685e4838")
 		(property "Reference" "J1"
 			(at 237.49 154.4203 90)
@@ -5632,7 +5667,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 237.49 156.9603 90)
+			(at 222.885 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,6 +6119,71 @@
 			(project "lora-stmu535-lr1121-tx"
 				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.285 159.385 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67ce8437-6209-4db8-9cd2-497d9d08af03")
+		(property "Reference" "#PWR036"
+			(at 248.285 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.095 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.285 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.285 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.285 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81df6ab6-591e-41f3-b416-18ae88fac1fa")
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7166,6 +7266,76 @@
 			(project "lora-stmu535-lr1121-tx"
 				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 248.285 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b34c1a-e230-48b9-a7a7-b65233f736ba")
+		(property "Reference" "L13"
+			(at 248.92 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "7nH"
+			(at 248.92 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 248.285 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.285 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 248.285 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4b47ba0-05b4-4c09-bd61-fa7414523cc7")
+		)
+		(pin "1"
+			(uuid "7215f283-8848-4ad8-89c1-b0865ae5d6a2")
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -9895,6 +10065,74 @@
 			(project "lora-stmu535-lr1121-tx"
 				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 253.365 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedc8699-d064-4e8a-9f1a-09608dadfb49")
+		(property "Reference" "L8"
+			(at 253.365 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13nH"
+			(at 253.365 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 253.365 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.365 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 253.365 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e62bc0a2-184d-4f90-913b-383bfb9e9693")
+		)
+		(pin "1"
+			(uuid "95447571-75d0-497b-b89b-fd546f2b2b1e")
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
+					(reference "L8")
 					(unit 1)
 				)
 			)
