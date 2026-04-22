@@ -3382,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 137.16 74.93)
+			(xy 130.81 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3562,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 137.16 72.39)
+			(xy 130.81 72.39) (xy 148.59 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3792,16 +3792,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 72.39) (xy 142.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95726f75-95f5-4c9d-9a0b-8b6d1d1946a9")
-	)
-	(wire
-		(pts
 			(xy 64.77 87.63) (xy 52.07 87.63)
 		)
 		(stroke
@@ -3869,16 +3859,6 @@
 			(type default)
 		)
 		(uuid "a48bac09-ca62-41da-90e0-a545692db242")
-	)
-	(wire
-		(pts
-			(xy 142.24 74.93) (xy 148.59 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5c944f9-c83d-43b0-96f9-7374ffd18513")
 	)
 	(wire
 		(pts
@@ -6110,73 +6090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a4d5188-85c8-4324-95b8-c10062cbef07")
-		(property "Reference" "R2"
-			(at 135.128 71.374 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 140.208 70.612 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 139.7 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 139.7 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31cedad6-ef47-4897-8831-5a68a780bddb")
-		)
-		(pin "1"
-			(uuid "6fc93f08-af1e-415e-b8d4-2a87d74fadcb")
-		)
-		(instances
-			(project "lora-stmu535-lr1121-tx"
-				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 238.125 130.175 0)
 		(unit 1)
@@ -8006,73 +7919,6 @@
 			(project "lora-stmu535-lr1121-tx"
 				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
 					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 139.7 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b67b9ca4-468f-4227-953d-31cc7a17ee6e")
-		(property "Reference" "R3"
-			(at 135.128 76.2 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 140.462 76.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d9958e1-f75d-48de-844d-30503453a856")
-		)
-		(pin "1"
-			(uuid "0da2ce2c-7d7d-42a6-9d3a-cee9bf29ec3e")
-		)
-		(instances
-			(project "lora-stmu535-lr1121-tx"
-				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
-					(reference "R3")
 					(unit 1)
 				)
 			)
