@@ -46,19 +46,6 @@
 		)
 		(uuid a1cb57da-2159-470b-8c75-2c1f49d44c60)
 	)
-	(text "TODO:\n- footprints for big R L C"
-		(exclude_from_sim no)
-		(at 125.73 51.435 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "6b7cc98c-4d02-4e5e-951d-662cbc611655")
-	)
 	(sheet
 		(at 52.07 90.805)
 		(size 64.77 49.53)
