@@ -5088,7 +5088,7 @@
 			)
 		)
 		(property "Value" "7.15M"
-			(at 165.735 116.84 0)
+			(at 164.465 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.66"
+		(property "Value" "8.66M"
 			(at 252.73 125.7299 0)
 			(effects
 				(font
@@ -5629,7 +5629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.22"
+		(property "Value" "4.22M"
 			(at 252.73 115.5699 0)
 			(effects
 				(font
@@ -5768,7 +5768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.13M"
+		(property "Value" "2.49M"
 			(at 51.435 92.7099 0)
 			(effects
 				(font
@@ -6177,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 169.545 73.66 0)
 			(effects
 				(font

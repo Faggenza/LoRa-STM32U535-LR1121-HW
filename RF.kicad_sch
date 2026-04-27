@@ -1505,7 +1505,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 66.04 0 180)
 					(length 7.62)
 					(name "GND"
@@ -1821,7 +1821,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U8"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -1837,7 +1837,7 @@
 					)
 				)
 			)
-			(property "Footprint" "QFN12_SKY"
+			(property "Footprint" "sky13588:QFN12_SKY-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1959,7 +1959,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "GND"
@@ -2067,7 +2067,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "GND"
@@ -2103,7 +2103,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "GND"
@@ -2139,7 +2139,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -12.7 180)
 					(length 7.62)
 					(name "GND"
@@ -2157,7 +2157,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -15.24 180)
 					(length 7.62)
 					(name "GND"
@@ -2633,12 +2633,6 @@
 		(uuid "298418f7-8da2-4d6c-bd75-753b4c44ff36")
 	)
 	(junction
-		(at 234.95 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f8dc9db-a804-49bd-8161-a5741d60244a")
-	)
-	(junction
 		(at 171.45 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2655,6 +2649,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f9843e9-4130-4558-99ec-b636dcb4148c")
+	)
+	(junction
+		(at 226.695 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bfead5f-9b9f-42c6-9de2-e0cbfe1ff761")
 	)
 	(junction
 		(at 194.31 85.09)
@@ -3060,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 153.67) (xy 234.95 153.67)
+			(xy 217.805 153.67) (xy 226.695 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3470,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.695 154.305) (xy 226.695 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b554ae3-222e-48d2-ab13-0e7a20592d5d")
+	)
+	(wire
+		(pts
 			(xy 29.21 83.82) (xy 22.86 83.82)
 		)
 		(stroke
@@ -3597,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "6ff198f3-45b2-4354-8cf0-5792867bea5a")
+	)
+	(wire
+		(pts
+			(xy 236.855 153.67) (xy 241.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715e812e-f288-4897-99c1-dcbd26b1a6fd")
 	)
 	(wire
 		(pts
@@ -3797,6 +3817,16 @@
 			(type default)
 		)
 		(uuid "8f920141-4504-4098-9585-9950a2b5075c")
+	)
+	(wire
+		(pts
+			(xy 226.695 153.67) (xy 231.775 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90337ccb-da45-4da4-b70c-ea6479d74ef9")
 	)
 	(wire
 		(pts
@@ -4020,16 +4050,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 153.67) (xy 241.3 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd129e4-5ac9-4c4f-89de-8a4126cfd1b7")
-	)
-	(wire
-		(pts
 			(xy 161.29 81.28) (xy 160.02 81.28)
 		)
 		(stroke
@@ -4177,6 +4197,16 @@
 			(type default)
 		)
 		(uuid "cd58aa0e-6c05-408b-a021-c72921785c60")
+	)
+	(wire
+		(pts
+			(xy 226.695 159.385) (xy 229.235 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce423521-f070-4fbd-821a-abcedbabb9dd")
 	)
 	(wire
 		(pts
@@ -4599,7 +4629,7 @@
 		(uuid "64d60d5a-ca3d-43a5-bd20-558fb9a0b231")
 	)
 	(label "868_RF"
-		(at 221.615 153.67 0)
+		(at 217.805 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,6 +5512,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 234.315 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28403981-5b9f-45a2-8114-86e770ea5554")
+		(property "Reference" "R2"
+			(at 234.315 149.225 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 234.315 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 234.315 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.315 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 234.315 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257cfacd-d234-4fb5-aac4-74ff662199f2")
+		)
+		(pin "2"
+			(uuid "86b88d9a-455b-4a65-b979-cfee7cc6a666")
+		)
+		(instances
+			(project "lora-stmu535-lr1121-tx"
+				(path "/963238c7-8564-44c5-a128-5d82375c10f7/5e252930-8cb6-4106-8539-d7be2478662a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 38.1 105.41 0)
 		(unit 1)
@@ -6087,7 +6184,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 234.95 156.21 270)
+		(at 226.695 156.845 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6095,7 +6192,7 @@
 		(dnp no)
 		(uuid "47c70757-a88b-4698-8f02-bc18685e4838")
 		(property "Reference" "J1"
-			(at 237.49 154.4203 90)
+			(at 229.235 155.0553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6201,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial_Small"
-			(at 222.885 158.75 90)
+			(at 205.105 156.845 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6210,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
-			(at 234.95 156.21 0)
+			(at 226.695 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 156.21 0)
+			(at 226.695 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6228,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 234.95 156.21 0)
+			(at 226.695 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 158.75 0)
+		(at 229.235 159.385 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9594,7 +9691,7 @@
 		(dnp no)
 		(uuid "e076d896-4675-4e04-9d07-30dc91476826")
 		(property "Reference" "#PWR030"
-			(at 234.95 165.1 0)
+			(at 229.235 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9603,7 +9700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.125 160.655 0)
+			(at 232.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 158.75 0)
+			(at 229.235 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 158.75 0)
+			(at 229.235 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 158.75 0)
+			(at 229.235 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
