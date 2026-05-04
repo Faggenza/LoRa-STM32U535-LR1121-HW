@@ -932,7 +932,7 @@
 		(path "/5e252930-8cb6-4106-8539-d7be2478662a/47c70757-a88b-4698-8f02-bc18685e4838")
 		(sheetname "/RF/")
 		(sheetfile "RF.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.5 1.5)
 			(end 0.7 1.5)
@@ -1309,7 +1309,7 @@
 		(path "/6f3e8fd6-042d-4fa2-915e-0bb9e5dd61a2/f2735d5c-2b44-44b3-bd1f-c83ed874e161")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.815 -4.555)
 			(end 1.815 -4.49)
@@ -3042,7 +3042,7 @@
 		(path "/6f3e8fd6-042d-4fa2-915e-0bb9e5dd61a2/31b2bf4a-c536-4476-bbff-3accf00da141")
 		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 14.08)
 			(end 3.92 14.08)
@@ -3354,6 +3354,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3365,6 +3366,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4576,6 +4578,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4587,6 +4590,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8347,7 +8351,7 @@
 		(path "/ec0d794e-4e86-49b4-99a7-5aeb461302ab/46a4e24d-6417-4a5e-aa09-98c8621da646")
 		(sheetname "/BQ25570/")
 		(sheetfile "bq25570.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -10640,7 +10644,7 @@
 		(path "/ec0d794e-4e86-49b4-99a7-5aeb461302ab/8807a930-6288-4c40-842d-0286dec37dac")
 		(sheetname "/BQ25570/")
 		(sheetfile "bq25570.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -17561,7 +17565,7 @@
 		(path "/5e252930-8cb6-4106-8539-d7be2478662a/fba5f041-5456-425f-835b-e43ad5953aac")
 		(sheetname "/RF/")
 		(sheetfile "RF.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_poly
 			(pts
 				(xy 32.5 -17.5) (xy 30.5 -17.5) (xy 30.5 -14.5) (xy 32.5 -14.5)
@@ -20484,7 +20488,7 @@
 		(path "/5e252930-8cb6-4106-8539-d7be2478662a/7ed03ed1-297d-4212-9cf4-b55cb1a44a7c")
 		(sheetname "/RF/")
 		(sheetfile "RF.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.5 1.5)
 			(end -1.5 1.3)
@@ -21777,7 +21781,7 @@
 		(path "/ec0d794e-4e86-49b4-99a7-5aeb461302ab/4c619279-49d7-4d5a-8e22-5e1f41cb4f55")
 		(sheetname "/BQ25570/")
 		(sheetfile "bq25570.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.38 3.92)
 			(end 1.38 3.92)

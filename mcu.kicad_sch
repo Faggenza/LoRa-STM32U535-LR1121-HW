@@ -5072,6 +5072,17 @@
 		)
 		(uuid eddedd8a-6fb0-4d06-8ff2-fbf4ddbba193)
 	)
+	(text "Further improvement:\nuse SPI also for BME and \nswitch to the low power one."
+		(exclude_from_sim no)
+		(at 191.77 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03d1d149-27ea-4dd0-85da-bf9aa4a33656")
+	)
 	(text "BOOT0"
 		(exclude_from_sim no)
 		(at 93.98 62.357 0)
